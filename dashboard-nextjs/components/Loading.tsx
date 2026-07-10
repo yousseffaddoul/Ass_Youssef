@@ -1,0 +1,31 @@
+export default function Loading() {
+  return (
+    <div
+      className="
+        min-h-screen
+        flex
+        items-center
+        justify-center
+        p-4
+        sm:p-6
+        lg:p-8
+      "
+    >
+      <div
+        className="
+          h-8
+          w-8
+          sm:h-10
+          sm:w-10
+          lg:h-12
+          lg:w-12
+          animate-spin
+          rounded-full
+          border-4
+          border-gray-300
+          border-t-blue-500
+        "
+      />
+    </div>
+  );
+}
